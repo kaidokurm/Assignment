@@ -9,14 +9,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.lang.reflect.Array;
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Date;
 
 @SpringBootTest
 class AssignmentApplicationTests {
-
     @Autowired
     StockRepository stockRepository;
     @Autowired
